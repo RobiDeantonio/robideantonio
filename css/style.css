@@ -248,7 +248,7 @@ a:focus {
     margin-bottom: 45px;
     padding: 120px 0 0 0;
     overflow: hidden;
-    background: linear-gradient(rgba(239, 35, 60, .95),rgba(35, 198, 239, .95) ), url(../img/hero-bg.jpg);
+    background: linear-gradient(rgba(35, 198, 239, .95),rgba(35, 198, 239, .95) ), url(../img/hero-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -532,13 +532,26 @@ a:focus {
 
 .about .progress .progress-bar {
     width: 0px;
-    background: #EF233C;
+    background: #23c6ef;
     border-radius: 10px;
     transition: 2s;
 }
 
 .about .about-text a.btn {
     margin-top: 15px;
+}
+
+.about .about-content a.btn {
+    color: #ffffff;
+    background: #EF233C;
+    box-shadow: inset 0 0 0 50px #EF233C;
+}
+
+.about .about-content a.btn:hover {
+    color: #23c6ef;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #23c6ef;
+    border-color: #23c6ef;
 }
 
 @media (max-width: 991.98px) {
@@ -1306,18 +1319,18 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #EF233C;
+    background: #23c6ef;
 }
 
 .contact .container-fluid {
-    background: url(../img/edit/IMG_1783bck.JPG) left center no-repeat;
+    background: url(../img/edit/IMG_1783.png) left center no-repeat;
     background-size: contain;
 }
 
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #EF233C;
+    background: #23c6ef;
 }
 
 .contact .contact-form input {
@@ -1351,9 +1364,9 @@ a:focus {
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #EF233C;
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    color: #ffffff;
+    background: #EF233C;
+    box-shadow: inset 0 0 0 50px #EF233C;
 }
 
 .contact .contact-form .btn:hover {
@@ -1381,6 +1394,7 @@ a:focus {
         padding: 90px 0;
     }
 }
+
 
 
 /*******************************/
@@ -1432,6 +1446,13 @@ a:focus {
 .blog .blog-item a.btn {
     margin-top: 10px;
     padding: 8px 15px;
+}
+
+.blog .blog-item:hover a.btn {
+    color: #23c6ef;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #23c6ef;
+    border-color: #23c6ef;
 }
 
 .blog .blog-item a.btn i {
