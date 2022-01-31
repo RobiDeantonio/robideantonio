@@ -1113,6 +1113,7 @@ a:focus {
 .team .team-item {
     position: relative;
     background: #ffffff;
+    top: 65px;
     margin-bottom: 30px;
     display: flex;
     align-items: center;
