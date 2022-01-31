@@ -983,6 +983,40 @@ a:focus {
 
 
 /*******************************/
+/********* Banner2 CSS **********/
+/*******************************/
+.banner2 {
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+    padding: 15px 0;
+    background: #23c6ef;
+}
+
+.banner2 .container {
+    max-width: 750px;
+    text-align: center;
+}
+
+.banner2 .section-header {
+    margin-bottom: 20px;
+}
+
+.banner2 .section-header p {
+    color: #414141;
+    background: transparent;
+}
+
+.banner2 .section-header p::after {
+    display: none;
+}
+
+.banner2 .section-header h2 {
+    color: #ffffff;
+}
+
+
+/*******************************/
 /********* Pricing CSS *********/
 /*******************************/
 .price {
