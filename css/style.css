@@ -851,10 +851,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #EF233C;
+    color: #23c6ef;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #23c6ef;
+    border-color: #23c6ef;
 }
 
 .portfolio .portfolio-item {
@@ -916,10 +916,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #EF233C;
+    color: #23c6ef;
     background: transparent;
-    box-shadow: inset 0 0 0 0 #EF233C;
-    border-color: #EF233C;
+    box-shadow: inset 0 0 0 0 #23c6ef;
+    border-color: #23c6ef;
 }
 
 
